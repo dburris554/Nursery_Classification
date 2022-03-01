@@ -18,6 +18,8 @@ To run this project:
     python main.py
 
     After which you will be prompted to input the training file and test file.
+    The test data and predicted labels are written to stdout as pandas dataframe rows.
+    That dataframe is also written out to "results.csv".
 
 References:
     Environment Setup:

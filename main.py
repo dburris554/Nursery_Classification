@@ -52,3 +52,7 @@ test_df = numeric_to_ordinal(test_df, feat_label_enc)
 # print test data and labels
 for row in test_df.itertuples(name='Nursery'):
     print(row)
+
+# write results to csv file
+with open('results.csv','wb') as out:
+    test_df.to_csv(out)
