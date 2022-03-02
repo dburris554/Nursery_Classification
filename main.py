@@ -55,4 +55,4 @@ for row in test_df.itertuples(name='Nursery'):
 
 # write results to csv file
 with open('results.csv','wb') as out:
-    test_df.to_csv(out)
+    test_df.to_csv(out, index=False)
